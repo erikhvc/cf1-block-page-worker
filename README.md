@@ -1,4 +1,4 @@
-Cloudflare workder for custom CF One Gateway block page
+Cloudflare worker for custom CF One Gateway block page
 
 1. Create a new worker and upload the worker.js code
 2. Modify the link to the logo and support info (Emailm URL and Phone) as needed:
@@ -16,7 +16,7 @@ Cloudflare workder for custom CF One Gateway block page
    `https://<worker_name>.workers.dev/`
    Above link will no parameters will display the standard message "Your request was blocked due to security restrictions."
 4. For custom messages encode the string as following:
-   `https://cf-block-page.vik-patel.workers.dev/?msg=This%20site%20is%20blocked%20due%20to%20site%20being%20in%20Security%20Risk%20content%20category.`
+   `https://<worker_name>.workers.dev/?msg=This%20site%20is%20blocked%20due%20to%20site%20being%20in%20Security%20Risk%20content%20category.`
    Above will "msg" will display "This site is blocked due to site being in Securit Risk content category." custom message.
 5. Check the box marked "Send policy context" to get the details of the block:
 
