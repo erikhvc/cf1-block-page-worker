@@ -92,6 +92,7 @@ const html = `<!DOCTYPE html>
     <p>If you believe this is an error, please contact support.</p>
     <div class="contact">
       Email: support@acme.com<br>
+      URL: <a href="https://intranet.acme.com/support">https://intranet.acme.com/support</a><br>
       Phone: +1-800-ACMECORP
     </div>
     <p/p>
