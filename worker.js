@@ -6,10 +6,6 @@ export default {
       return new Response('Method not allowed', { status: 405 });
     }
 
-//    if (request.url.endsWith("/acme_corp_logo.png")) {
-//      return env.ASSETS.fetch(request);
-//    }
-
     // Configuration - set your target URL here
     const country = request.cf.country;
     const url = new URL(request.url);
