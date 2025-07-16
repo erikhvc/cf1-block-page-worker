@@ -13,12 +13,16 @@ Cloudflare worker for custom CF One Gateway block page
    Phone: +1-800-ACMECORP
    ```
 3. Place the following url link in you CF One Gateway block rules with the "Override account setting with URL redirect" option:
-   ```https://<worker_name>.workers.dev/```
+   ```
+   https://<worker_name>.workers.dev/
+   ```
    Above link will no parameters will display the standard message "Your request was blocked due to security restrictions."
-4. For custom messages encode the string as following:
-   ```https://<worker_name>.workers.dev/?msg=This%20site%20is%20blocked%20due%20to%20site%20being%20in%20Security%20Risk%20content%20category.```
+5. For custom messages encode the string as following:
+   ```
+   https://<worker_name>.workers.dev/?msg=This%20site%20is%20blocked%20due%20to%20site%20being%20in%20Security%20Risk%20content%20category.
+   ```
    Above will "msg" will display "This site is blocked due to site being in Securit Risk content category." custom message.
-5. Check the box marked "Send policy context" to get the details of the block:
+7. Check the box marked "Send policy context" to get the details of the block:
 
 ```
    User Email:xxxxxxx
