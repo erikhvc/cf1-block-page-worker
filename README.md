@@ -21,16 +21,16 @@ Cloudflare workder for custom CF One Gateway block page
 5. Check the box marked "Send policy context" to get the details of the block:
 
    ```
-   User Email:	            xxxxxxx
-   Site URI:	            xxxxxxx
-   Request Category Names:	xxxxxxx
-   Referer:	               xxxxxxx
-   Rule ID:	               xxxxxxx
-   Source IP:	            xxxxxxx
-   Device ID:	            xxxxxxx
-   Application Names:	   xxxxxxx
-   Filter:	               xxxxxxx
-   Account ID:	            xxxxxxx
-   Connection ID:	         xxxxxxx
-   Request ID:             xxxxxxx
+   |User Email:|xxxxxxx|
+   |Site URI:|xxxxxxx|
+   |Request Category Names:|xxxxxxx|
+   |Referer:|xxxxxxx|
+   |Rule ID:|xxxxxxx|
+   |Source IP:|xxxxxxx|
+   |Device ID:|xxxxxxx|
+   |Application Names:|xxxxxxx|
+   |Filter:|xxxxxxx|
+   |Account ID:|xxxxxxx|
+   |Connection ID:|xxxxxxx|
+   |Request ID:|xxxxxxx|
    ```
