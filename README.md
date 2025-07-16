@@ -20,7 +20,7 @@ Cloudflare workder for custom CF One Gateway block page
    Above will "msg" will display "This site is blocked due to site being in Securit Risk content category." custom message.
 5. Check the box marked "Send policy context" to get the details of the block:
 
-
+```
    |User Email:|xxxxxxx|
    |Site URI:|xxxxxxx|
    |Request Category Names:|xxxxxxx|
@@ -33,3 +33,4 @@ Cloudflare workder for custom CF One Gateway block page
    |Account ID:|xxxxxxx|
    |Connection ID:|xxxxxxx|
    |Request ID:|xxxxxxx|
+```
