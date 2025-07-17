@@ -18,12 +18,12 @@ Cloudflare worker para pagina de bloqueo personalizada para CF1 Gateway
    ```
    https://<worker_name>.workers.dev/
    ```
-   Above link will no parameters will display the standard message "Your request was blocked due to security restrictions."
+   Above link will no parameters will display the standard message "Tu solicitud fue bloqueada por restricciones de seguridad."
 5. For custom messages encode the string as following:
    ```
    https://<worker_name>.workers.dev/?msg=Este%20sitio%20fue%20bloqueado%20por%20riesgo%20de%20seguridad%20utilizando%20la%20Categoria%20Apuestas.
    ```
-   Above with `?msg=` will display "This site is blocked due to site being in Securit Risk content category." custom message.
+   Above with `?msg=` will display "Este sitio fue bloqueado por riesgo de seguridad por la Categoria Apuestas." custom message.
 7. Check the box marked "Send policy context" to get the details of the block:
 
 ```
