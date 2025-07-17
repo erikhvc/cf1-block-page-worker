@@ -23,7 +23,7 @@ Cloudflare worker para pagina de bloqueo personalizada para CF1 Gateway
    ```
    https://<worker_name>.workers.dev/?msg=Este%20sitio%20fue%20bloqueado%20por%20riesgo%20de%20seguridad%20utilizando%20la%20Categoria%20Apuestas.
    ```
-   El link anterior con `?msg=` mostrara "Este sitio fue bloqueado por riesgo de seguridad utilizando la Categoria Apuestas." como mensaje message.
+   El link anterior con `?msg=` mostrara "Este sitio fue bloqueado por riesgo de seguridad utilizando la Categoria Apuestas." como mensaje.
 7. Marca la caja "Enviar contexto de política" esto para tener los detalles del bloqueo:
 
 ```
