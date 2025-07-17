@@ -1,4 +1,4 @@
-Cloudflare worker for custom CF One Gateway block page
+Cloudflare worker para pagina de bloqueo personalizada para CF1 Gateway
 
 <img src="https://vplabs.us/custom_block_page.png" alt="Custom CF One Gateway Block Page" width="600"/>
 
