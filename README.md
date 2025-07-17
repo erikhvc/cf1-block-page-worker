@@ -40,4 +40,4 @@ Cloudflare worker para pagina de bloqueo personalizada para CF1 Gateway
    Connection ID:xxxxxxx
    Request ID:xxxxxxx
 ```
-<img src="https://vplabs.us/gw_block_policy_settings.png" alt="Gateway Policy Settings" width="1100"/>
+<img src="https://imagedelivery.net/ih4h24GjSpxgtoKR_JlczQ/15f3a655-7a20-4743-957c-f6ab43e5b000/public" alt="Gateway Policy Settings" width="1100"/>
