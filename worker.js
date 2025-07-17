@@ -93,7 +93,7 @@ const html = `<!DOCTYPE html>
     <div class="contact">
       Email: soporte@erikvidaurri.xyz<br>
       URL: <a href="https://erikvidaurri.xyz/soporte">https://erikvidaurri.xyz/soporte</a><br>
-      Phone: +1-800-ErikV
+      Phone: +1-800-ErikVCorp
     </div>
     <p/p>
     <div class="contact">
