@@ -3,7 +3,7 @@ Cloudflare worker for custom CF One Gateway block page
 <img src="https://vplabs.us/custom_block_page.png" alt="Custom CF One Gateway Block Page" width="600"/>
 
 1. Create a new worker and upload the worker.js code
-2. Modify the link to the logo and support info (Emailm URL and Phone) as needed:
+2. Modify the link to the logo and support info (Email, URL and Phone) as needed:
    ```
    <img id="logo" src="https://vplabs.us/acme_corp_logo.png">
    <h1>Access Restricted</h1>
@@ -40,4 +40,4 @@ Cloudflare worker for custom CF One Gateway block page
    Connection ID:xxxxxxx
    Request ID:xxxxxxx
 ```
-<img src="https://vplabs.us/gateway_policy_settings.png" alt="Gateway Policy Settings" width="1100"/>
+<img src="https://vplabs.us/gw_block_policy_settings.png" alt="Gateway Policy Settings" width="1100"/>
