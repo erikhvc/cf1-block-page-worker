@@ -40,4 +40,4 @@ Cloudflare worker for custom CF One Gateway block page
    Connection ID:xxxxxxx
    Request ID:xxxxxxx
 ```
-<img src="https://vplabs.us/gateway_policy_settings.png" alt="Gateway Policy Settings" width="600"/>
+<img src="https://vplabs.us/gateway_policy_settings.png" alt="Gateway Policy Settings" width="1100"/>
