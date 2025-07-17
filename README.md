@@ -14,30 +14,30 @@ Cloudflare worker para pagina de bloqueo personalizada para CF1 Gateway
    URL: <a href="https://erikvidaurri.xyz/soporte">https://erikvidaurri.xyz/soporte</a><br>
    Telefono: +1-800-ErikVCorp
    ```
-3. Place the following url link in you CF One Gateway block rules with the "Override account setting with URL redirect" option:
+3. Agrega la siguiente url en tu politica de bloqueo de Gateway con la opcion seleccionada "Anular el ajuste de la cuenta con URL de redirección":
    ```
    https://<worker_name>.workers.dev/
    ```
-   Above link will no parameters will display the standard message "Tu solicitud fue bloqueada por restricciones de seguridad."
-5. For custom messages encode the string as following:
+   El siguiente link sin parametros desplegara el mensaje estandar: "Tu solicitud fue bloqueada por restricciones de seguridad."
+5. Para un mensaje personalizado en la politica, agregar la siguiente secuencaa de caracteres como sigue:
    ```
    https://<worker_name>.workers.dev/?msg=Este%20sitio%20fue%20bloqueado%20por%20riesgo%20de%20seguridad%20utilizando%20la%20Categoria%20Apuestas.
    ```
-   Above with `?msg=` will display "Este sitio fue bloqueado por riesgo de seguridad por la Categoria Apuestas." custom message.
-7. Check the box marked "Send policy context" to get the details of the block:
+   El link anterior con `?msg=` mostrara "Este sitio fue bloqueado por riesgo de seguridad utilizando la Categoria Apuestas." como mensaje message.
+7. Marca la caja "Enviar contexto de política" esto para tener los detalles del bloqueo:
 
 ```
-   User Email:xxxxxxx
-   Site URI:xxxxxxx
-   Request Category Names:xxxxxxx
-   Referer:xxxxxxx
-   Rule ID:xxxxxxx
-   Source IP:xxxxxxx
-   Device ID:xxxxxxx
-   Application Names:xxxxxxx
-   Filter:xxxxxxx
-   Account ID:xxxxxxx
-   Connection ID:xxxxxxx
-   Request ID:xxxxxxx
+   Correo Usuario: xxxxxxx
+   URI Sitio: xxxxxxx
+   Categoria de la Peticion: xxxxxxx
+   Referencia: xxxxxxx
+   ID Regla: xxxxxxx
+   IP Origen: xxxxxxx
+   ID Dispositivo: xxxxxxx
+   Nombre Aplicacion: xxxxxxx
+   Filtro: xxxxxxx
+   ID Cuenta: xxxxxxx
+   ID Conexion: xxxxxxx
+   ID Peticion: xxxxxxx
 ```
 <img src="https://imagedelivery.net/ih4h24GjSpxgtoKR_JlczQ/15f3a655-7a20-4743-957c-f6ab43e5b000/public" alt="Gateway Policy Settings" width="1100"/>
