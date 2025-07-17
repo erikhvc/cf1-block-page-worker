@@ -28,7 +28,7 @@ export default {
     if (msgParam) {
       safeMsg = decodeURIComponent(msgParam);
     } else {
-      safeMsg = "Your request was blocked due to security restrictions.";
+      safeMsg = "Tu solicitud fue bloqueada por restricciones de seguridad.";
     }
 
 // Custom block page HTML (ACME branded)
@@ -36,7 +36,7 @@ const html = `<!DOCTYPE html>
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Access Denied - ACME Corp</title>
+  <title>Acceso Denegado - ErikV Corp</title>
   <style>
     body { 
       font-family: Arial, sans-serif; 
@@ -51,8 +51,8 @@ const html = `<!DOCTYPE html>
       margin-bottom: 20px;
     }
     #logo {
-      height: auto;
-      width: auto;
+      height: 60;
+      width: 50;
     }
     .container {
       max-width: 600px;
@@ -86,68 +86,68 @@ const html = `<!DOCTYPE html>
 </head>
 <body>
   <div class="container">    
-    <img id="logo" src="https://vplabs.us/acme_corp_logo.png">
-    <h1>Access Restricted</h1>
+    <img id="logo" width="250" height="260" src="https://imagedelivery.net/ih4h24GjSpxgtoKR_JlczQ/218680b9-61eb-479c-e221-8b0938362500/public">
+    <h1>Acceso Restringido</h1>
     <p>${safeMsg}</p>
-    <p>If you believe this is an error, please contact support.</p>
+    <p>Si usted cree que esto es un error, favor de contactar a soporte.</p>
     <div class="contact">
-      Email: support@acme.com<br>
-      URL: <a href="https://intranet.acme.com/support">https://intranet.acme.com/support</a><br>
-      Phone: +1-800-ACMECORP
+      Email: soporte@erikvidaurri.xyz<br>
+      URL: <a href="https://erikvidaurri.xyz/soporte">https://erikvidaurri.xyz/soporte</a><br>
+      Phone: +1-800-ErikV
     </div>
     <p/p>
     <div class="contact">
     <input type="checkbox" id="showHideCheckbox">
-    <label for="showHideCheckbox">Show Details</label>
+    <label for="showHideCheckbox">Mostrar Detalles</label>
     </dev>
     <div class="contact1" id="targetElement" style="display: none;">
       <table style="border-collapse: collapse; border: none;">
         <tr style="border: none;">
-          <td style="border: none;">User Email:</td>
+          <td style="border: none;">Correo Usuario:</td>
           <td style="border: none;">${cf_user_email}</td>
         </tr>
         <tr style="border: none;">
-          <td style="border: none;">Site URI:</td>
+          <td style="border: none;">URI Sitio:</td>
           <td style="border: none;">${cf_site_uri}</td>
         </tr>
         <tr style="border: none;">
-          <td style="border: none;">Request Category Names:          </td>
+          <td style="border: none;">Categoria de la Peticion:          </td>
           <td style="border: none;">${cf_request_category_names}</td>
         </tr>
         <tr style="border: none;">
-          <td style="border: none;">Referer:</td>
+          <td style="border: none;">Referencia:</td>
           <td style="border: none;">${cf_referer}</td>
         </tr>
         <tr style="border: none;">
-          <td style="border: none;">Rule ID:</td>
+          <td style="border: none;">ID Regla:</td>
           <td style="border: none;">${cf_rule_id}</td>
         </tr>
         <tr style="border: none;">
-          <td style="border: none;">Source IP:</td>
+          <td style="border: none;">IP Origen:</td>
           <td style="border: none;">${cf_source_ip}</td>
         </tr>
         <tr style="border: none;">
-          <td style="border: none;">Device ID:</td>
+          <td style="border: none;">ID Dispositivo:</td>
           <td style="border: none;">${cf_device_id}</td>
         </tr>
         <tr style="border: none;">
-          <td style="border: none;">Application Names:</td>
+          <td style="border: none;">Nombre Aplicacion:</td>
           <td style="border: none;">${cf_application_names}</td>
         </tr>
         <tr style="border: none;">
-          <td style="border: none;">Filter:</td>
+          <td style="border: none;">Filtro:</td>
           <td style="border: none;">${cf_filter}</td>
         </tr>
         <tr style="border: none;">
-          <td style="border: none;">Account ID:</td>
+          <td style="border: none;">ID Cuenta:</td>
           <td style="border: none;">${cf_account_id}</td>
         </tr>
         <tr style="border: none;">
-          <td style="border: none;">Connection ID:</td>
+          <td style="border: none;">ID Conexion:</td>
           <td style="border: none;">${cf_connection_id}</td>
         </tr>
         <tr style="border: none;">
-          <td style="border: none;">Request ID:</td>
+          <td style="border: none;">ID Peticion:</td>
           <td style="border: none;">${cf_request_id}</td>
         </tr>
       </table>  
@@ -177,4 +177,3 @@ return new Response(html, {
 });
 }
 };
-
