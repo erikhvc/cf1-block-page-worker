@@ -1,5 +1,7 @@
 Cloudflare worker for custom CF One Gateway block page
 
+![alt text](https://vplabs.us/custom_block_page.png "Custom CF One Gateway Block Page")
+
 1. Create a new worker and upload the worker.js code
 2. Modify the link to the logo and support info (Emailm URL and Phone) as needed:
    ```
@@ -38,4 +40,6 @@ Cloudflare worker for custom CF One Gateway block page
    Connection ID:xxxxxxx
    Request ID:xxxxxxx
 ```
+
+![alt text](https://vplabs.us/gateway_policy_settings.png "Gateway Policy Settings")
 
