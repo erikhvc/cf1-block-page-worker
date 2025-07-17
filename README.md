@@ -1,6 +1,6 @@
 Cloudflare worker para pagina de bloqueo personalizada para CF1 Gateway
 
-<img src="https://vplabs.us/custom_block_page.png" alt="Custom CF One Gateway Block Page" width="600"/>
+<img src="https://imagedelivery.net/ih4h24GjSpxgtoKR_JlczQ/5c72ef1a-4d47-4d9b-4d2e-57e16b4a0000/public" alt="Custom CF One Gateway Block Page" width="600"/>
 
 1. Create a new worker and upload the worker.js code
 2. Modify the link to the logo and support info (Email, URL and Phone) as needed:
